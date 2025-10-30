@@ -1,0 +1,12 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^4.0.5"
+  },
+  "scripts" : {
+    "test" : "vitest"
+  }
+}
