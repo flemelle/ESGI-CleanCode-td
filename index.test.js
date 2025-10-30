@@ -1,14 +1,14 @@
 import { describe } from "vitest";
 
 
-describe("Roman number converter", () => {
-    it.each{[
-        ["I", 1],
-        ["II", 2],
-        ["III", 3],
-        ["IV", 4],
-        ["V", 5],
-    ]}("Should return %s given %s", (expected, input) => {
+describe("YAMS", () => {
+    it.each([
+        ["Brelan", 28],
+        ["Carré", 35],
+        ["Full", 30],
+        ["Grande suite", 40],
+        ["YAMS", 50]
+    ])("Should return %s given %s", (expected, input) => {
         expect(test(input)).toBe(expected);
     });
 });
